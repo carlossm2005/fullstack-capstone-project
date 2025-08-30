@@ -71,7 +71,7 @@ function MainPage() {
                                 <p className="card-text">{formatDate(gift.date_added)}</p>
 
                                 <button
-                                    onClick={() => goToDetailsPage(gift.id)}
+                                    onClick={() => goToDetailsPage(gift._id)}
                                     className="btn btn-primary"
                                 >
                                     View Details
